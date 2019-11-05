@@ -1,0 +1,39 @@
+h2{
+  text-align: center;
+}
+div{
+  text-align: center;
+}
+body{
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+.secreta{
+  text-align: center;
+}
+.canvas{
+  display: block;
+  border:2px solid black;
+  margin: auto;
+}
+.myButton {
+	background:linear-gradient(to bottom, #c62d1f 5%, #c97872 100%);
+	background-color:#c62d1f;
+	border-radius:37px;
+	display:inline-block;
+	cursor:pointer;
+  color: white;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 12px;
+	text-decoration:none;
+  border: none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c97872 5%, #c62d1f 100%);
+	background-color:#c97872;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
