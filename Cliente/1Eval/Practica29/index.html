@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es-ES" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="js/codigo.js">
+    </script>
+  </head>
+  <body style="text-align: center;">
+    <h1>INICIAR SESIÓN</h1>
+    <form method="submit" onsubmit="comprueba()">
+      <fieldset>
+        <input type="text" name="email" id="email" value="">
+        <input type="password" name="contraseña" id="contraseña" value="">
+        <input type='submit' name="boton" value="Enviar">
+      </fieldset>
+    </form>
+    <h2>Restricciones</h2>
+    <p>* Ambos campos obligatorios</p>
+    <p>* Email debe contener una @ y un .</p>
+    <p>* Contraseña debe tener más de 8 y menos de 15 carácteres</p>
+    <p>* Si todos los campos son correctos debe redirigir a google</p>
+  </body>
+</html>
