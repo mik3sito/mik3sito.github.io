@@ -1,0 +1,5 @@
+table,th,tr,td{
+  border: lightgrey solid;
+  border-collapse: collapse;
+  text-align: center;
+}

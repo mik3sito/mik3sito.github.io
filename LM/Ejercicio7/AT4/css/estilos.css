@@ -1,0 +1,17 @@
+table{
+  margin:auto;
+}
+table, th, tr, td{
+  border: grey solid;
+  border-collapse: collapse;
+}
+span{
+  text-decoration: line-through;
+  font-weight: normal;
+}
+p{
+font-weight: bold;
+}
+a{
+  font-weight: normal;
+}

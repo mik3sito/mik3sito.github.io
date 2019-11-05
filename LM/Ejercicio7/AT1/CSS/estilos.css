@@ -1,0 +1,30 @@
+table, th, td{
+ border: 1px solid black;
+ background-color: lightGrey;
+ margin:auto;
+ text-align: center
+}
+.dias{
+  background-color: white;
+}
+th{
+  font-weight: normal;
+}
+.par{
+  background-color: lightGreen;
+}
+.lms{
+  background-color: Yellow;
+}
+.iso{
+  background-color: Pink;
+}
+.gbd{
+  background-color: Orange;
+}
+.fh{
+  background-color: lightBlue;
+}
+.fol{
+  background-color: Tomato;
+}

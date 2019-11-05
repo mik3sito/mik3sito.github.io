@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script  src="js/codigo.js"></script>
+</head>
+<body>
+    <!--Falta Script JS-->
+    <h1>Formulario</h1>
+    <form action="#" onsubmit="return imprimir()">
+        <fieldset>
+          <legend>Mi Formulario</legend>
+          <p>Introduzca nombre</p>
+          <input type="text" id="nombre"  name="nombre" placeholder="Nombre" value="" required autofocus>
+
+          <p>Introduzca DNI</p>
+          <input title="Introduce un NIF/NIE valido" type="text" id="nombre"  name="nombre" placeholder="DNI" value="" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))" required>
+
+          <p>Estado Civil</p>
+          <input type="radio" name="estadocivil" value="soltero" checked>Soltero/a<br>
+          <input type="radio" name="estadocivil" value="casado">Casado/a<br>
+
+          <p>Introduzca contraseña</p>
+          <input type="password" name="pwd" id="pwd" placeholder=""  minlength="6" maxlength="12" value="">
+
+
+          <p>Indique el email</p>
+          <input type="email" name="email" id="email" value="" placeholder="tuemail@gmail.com" required>
+
+          <p>Introduzca la direccion web</p>
+          <input type="url" name="url" name="url" value="" id="url" placeholder="url">
+            <p>Provincias andalucia</p>
+          <select id="provincia" class="" name="provincia">
+            <option value="Huelva">Huelva</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Cordoba" selected>Cordoba</option>
+            <option value="Jaen">Jaen</option>
+            <option value="Granada">Granada</option>
+            <option value="Malaga">Malaga</option>
+            <option value="Cadiz">Cadiz</option>
+            <option value="Almeria">Almeria</option>
+          </select>
+
+          <p>DATEEEEEE</p>
+            <input type="date" name="DATE"  id="date" value="">
+
+            <p>Introduzca numero</p>
+            <input type="number" name="edadnumber" id="edadnumber" value="" placeholder="Edad" min="0" max="100" step="2">
+
+          <p>Introduzca tlf</p>
+          <input type="text" id="tlf"  name="tlf" placeholder="tlf" value="" required>
+
+          <p>Search</p>
+          <input type="search">
+          <p>Colorcete</p>
+            <input type="color" name="color" id="color" value="#ff0482">
+            <input type="hidden" name="escondido" id="escondido" value="Miguel Condés Medina">
+            <p>Navegantes</p>
+          <input list="navegadores" id="datalist" name="datalist" value="">
+          <datalist id="navegadores"class="">
+              <option value="Colon"></option>
+              <option value="Magallanes"></option>
+              <option value="Elcano"></option>
+              <option value="Pinzón"></option>
+          </datalist>
+          <br>
+          <input type="reset" name="" value="Reset">
+            <p>Enviar Formulario</p>
+            <input type='submit' name="boton" value="Enviar">
+          <div id="resultado"></div>
+        </fieldset>
+      </form>
+</body>
+</html>

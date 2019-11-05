@@ -1,0 +1,49 @@
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+.verde{
+  background-color: green;
+}
+.blanco{
+  background-color: white;
+}
+.Vacioverde{
+  height: 36px ;
+  width:  41px;
+
+}
+.Vacioblanco{
+  height: 36px;
+  width:  41px;
+}
+table{
+outline: 3px double black;
+  border: 10px solid black;
+border-collapse: collapse;
+}
+
+tr, td{
+  border: 2px solid grey;
+
+
+}
+div{
+  width: 360px;
+  border-top:  10px solid lightGrey;
+  border-left:  10px solid lightGrey;
+  border-right: 10px solid Grey;
+  border-bottom: 10px solid Grey;
+  margin: auto;
+}
+body{
+  background-color: lightBlue;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
