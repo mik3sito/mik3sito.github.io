@@ -1,0 +1,23 @@
+*{
+  font-family: sans-serif;
+  margin:0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+.juego{
+  border: 1px solid #aaaaaa;
+  height: 500px;
+  width: 66%;
+  margin-left: 16.5%;
+}
+.boton{
+  text-align: center;
+}
+.juego>div{
+  border: 1px solid black;
+}
+p{
+  text-align: center;
+}
